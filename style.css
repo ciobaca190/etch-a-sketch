@@ -1,0 +1,19 @@
+#main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+#grid {
+	display: grid;
+	margin: auto;
+	outline: 3px solid black;
+	width: 700px;
+	height: 700px;
+}
+
+.square {
+	outline: 1px solid black;
+}
